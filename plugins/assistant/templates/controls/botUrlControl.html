@@ -1,0 +1,7 @@
+{if !empty($settlements)}
+    {foreach $settlements as $settlement}
+        <strong>{$settlement}assistant/bot</strong><br />
+    {/foreach}
+{else}
+    [`No app settlement specified`]
+{/if}

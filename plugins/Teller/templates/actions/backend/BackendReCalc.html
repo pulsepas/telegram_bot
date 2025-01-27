@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Orders Processed</title>
+    <style>
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 50%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h1>Orders Processed</h1>
+            <p>{$processed_orders} orders have been processed.</p>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script>
+function closeModal() {
+    document.getElementById('myModal').style.display = 'none';
+    window.location.href = '{$wa_app_url}';
+}
+
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('myModal').style.display = 'block';
+        });
+    </script>
+</body>
+</html>

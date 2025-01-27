@@ -1,0 +1,49 @@
+<h1>[`Assistant bot`]</h1>
+<form id="plugins-settings-form" target="plugins-settings-iframe" enctype="multipart/form-data" method="post" action="?module=plugins&id=assistant&action=save">
+    <div style="display: table; width: 100%;">
+        <div style="display: table-cell">
+            <ul class="tabs" id="assistant-tabs">
+                <li class="selected"><a href="#assistant-basic">[`Basic settings`]</a></li>
+                {foreach $tabs as $key => $tab}
+                    <li><a href="#assistant-{$key}">{$tab.name}</a></li>
+                {/foreach}
+            </ul>
+            <div class="tab-content" id="assistant-tabs-content">
+                <div class="block" id="assistant-basic">
+                    {include file="./Basic.html" inline}
+                </div>
+                {foreach $tabs as $key => $tab}
+                    <div class="block" id="assistant-{$key}">
+                        {include file="./{$tab.template}"  inline}
+                    </div>
+                {/foreach}
+            </div>
+            <div class="fields">
+                <div class="field">
+                    <div class="value submit">
+                        <input class="button green" type="submit" value="[`Save`]">
+                        <span id="plugins-settings-form-status" style="display:none"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<iframe id="plugins-settings-iframe" name="plugins-settings-iframe" style="display:none">
+    <html>
+    <head></head>
+    <body></body>
+    </html>
+</iframe>
+
+<script src="{telegramAssistantPlugin::getPlgStaticUrl(true)}js/assistant_settings.{if !$wa->debug()}min.{/if}js"></script>
+
+<script>
+    $(function () {
+        setTimeout(function () {
+            $.Assistant_settings.init();
+        }, 200);
+    });
+</script>
+
+

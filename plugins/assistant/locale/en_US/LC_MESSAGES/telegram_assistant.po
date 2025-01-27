@@ -1,0 +1,592 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: telegram/plugins/assistant\n"
+"POT-Creation-Date: 2018-04-03 08:20+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: telegram/plugins/assistant\n"
+"Language-Team: telegram/plugins/assistant\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"Language: en_US\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: /wa-apps/telegram/plugins/assistant/templates/controls/feedbackControl.html:6
+msgid "QR code"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/templates/controls/feedbackControl.html:10
+msgid "Technical support for this plugin"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/plugin.php:3
+msgid "You can be the Stainless Steel Rat"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:11
+msgid "Bot token"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:12
+msgid "Set the API key."
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:17
+msgid "Ask for technical support"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:18
+msgid "Click on the link to contact the developer."
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:18
+msgid "Bot URL"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:19
+msgid "The Internet address on which the bot works."
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:24
+msgid "setWebhook URL"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:25
+msgid "Internet address for registering a bot link."
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/templates/controls/botUrlControl.html:6
+#: /wa-apps/telegram/plugins/assistant/templates/controls/webhookUrlControl.html:6
+msgid "No app settlement specified"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/templates/controls/httpsCheckControl.html:2
+msgid "Verification passed"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/templates/controls/httpsCheckControl.html:4
+msgid "Verification not passed"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:11
+msgid "HTTPS check"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:12
+msgid "If not https, the bot will not work."
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:25
+msgid "Use socks5 proxy"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:26
+msgid "If enabled, the socks5 proxy will be used."
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:32
+msgid "Socks5 proxy address"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:33
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:40
+msgid "If empty, the proxy will be disabled."
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:39
+msgid "Socks5 proxy port"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:46
+msgid "Socks5 proxy user"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:47
+msgid "If empty, the login and password will not be used."
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:53
+msgid "Socks5 proxy password"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:54
+msgid "If empty, the password will not be used."
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:66
+msgid "If api.telegram.org is blocked for you, use the Tor Browser or other method of bypass blocking to activate the bot."
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:66
+msgid "Internet address for registering a bot link. If api.telegram.org is blocked for you, use the Tor Browser or other method of bypass blocking to activate the bot."
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/templates/actions/backend/settings/Interface.html:1
+#: /wa-apps/telegram/plugins/assistant/lib/telegramAssistantPlugin.class.php:138
+msgid "Interface"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/templates/actions/backend/settings/Basic.html:1
+#: /wa-apps/telegram/plugins/assistant/templates/actions/backend/settings/Settings.html:6
+msgid "Basic settings"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/templates/actions/backend/settings/Settings.html:1
+#: /wa-apps/telegram/plugins/assistant/lib/config/plugin.php:3
+msgid "Assistant bot"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/templates/actions/backend/settings/Settings.html:24
+msgid "Save"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/templates/actions/backend/settings/Info.html:1
+#: /wa-apps/telegram/plugins/assistant/lib/telegramAssistantPlugin.class.php:142
+msgid "Information"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:59
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:60
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:66
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:77
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:84
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:89
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:90
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:96
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:107
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:114
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:119
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:120
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:126
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:137
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:144
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:149
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:150
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:156
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:167
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:174
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:179
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:180
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:186
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:197
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:204
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:209
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:210
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:216
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:227
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:234
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:239
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:240
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:246
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:257
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:264
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:269
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:270
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:276
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:287
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:294
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:299
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:300
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:306
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:317
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:324
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:329
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:330
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:336
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:347
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:354
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:359
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:360
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:366
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:377
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:384
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:389
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:390
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:396
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:407
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:414
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:419
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:420
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:426
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:437
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:444
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:449
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:450
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:456
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:467
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:474
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:479
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:480
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:486
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:497
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:504
+msgid "Button"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:59
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:60
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:66
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:77
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:84
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:89
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:90
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:96
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:107
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:114
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:119
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:120
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:126
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:137
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:144
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:149
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:150
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:156
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:167
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:174
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:179
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:180
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:186
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:197
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:204
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:209
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:210
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:216
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:227
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:234
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:239
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:240
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:246
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:257
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:264
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:269
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:270
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:276
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:287
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:294
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:299
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:300
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:306
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:317
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:324
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:329
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:330
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:336
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:347
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:354
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:359
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:360
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:366
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:377
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:384
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:389
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:390
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:396
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:407
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:414
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:419
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:420
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:426
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:437
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:444
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:449
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:450
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:456
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:467
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:474
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:479
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:480
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:486
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:497
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:504
+msgid "row"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:59
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:60
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:66
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:77
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:84
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:89
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:90
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:96
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:107
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:114
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:119
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:120
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:126
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:137
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:144
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:149
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:150
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:156
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:167
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:174
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:179
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:180
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:186
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:197
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:204
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:209
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:210
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:216
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:227
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:234
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:239
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:240
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:246
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:257
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:264
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:269
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:270
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:276
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:287
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:294
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:299
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:300
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:306
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:317
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:324
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:329
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:330
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:336
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:347
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:354
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:359
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:360
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:366
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:377
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:384
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:389
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:390
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:396
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:407
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:414
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:419
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:420
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:426
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:437
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:444
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:449
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:450
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:456
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:467
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:474
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:479
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:480
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:486
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:497
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:504
+msgid "column"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:60
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:90
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:120
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:150
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:180
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:210
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:240
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:270
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:300
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:330
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:360
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:390
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:420
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:450
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:480
+msgid "title"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:66
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:96
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:126
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:156
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:186
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:216
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:246
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:276
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:306
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:336
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:366
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:396
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:426
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:456
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:486
+msgid "type"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:69
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:99
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:129
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:159
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:189
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:219
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:249
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:279
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:309
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:339
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:369
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:399
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:429
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:459
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:489
+msgid "Off"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:70
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:100
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:130
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:160
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:190
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:220
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:250
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:280
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:310
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:340
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:370
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:400
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:430
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:460
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:490
+msgid "Action"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:71
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:101
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:131
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:161
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:191
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:221
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:251
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:281
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:311
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:341
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:371
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:401
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:431
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:461
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:491
+msgid "Link"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:77
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:107
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:137
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:167
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:197
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:227
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:257
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:287
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:317
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:347
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:377
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:407
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:437
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:467
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:497
+msgid "command"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:78
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:108
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:138
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:168
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:198
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:228
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:258
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:288
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:318
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:348
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:378
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:408
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:438
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:468
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:498
+msgid "Text command to respond to the button. Be sure to start with \"/\". For example \"/help\""
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:84
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:114
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:144
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:174
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:204
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:234
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:264
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:294
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:324
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:354
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:384
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:414
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:444
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:474
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:504
+msgid "content"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:510
+msgid "Currency"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:511
+msgid "The currency, which has a shop Vkontakte."
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:74
+msgid "For text formatting, only the following constructions are possible:"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:75
+msgid "Hint"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:85
+msgid "Welcome!"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:86
+msgid "Welcome text"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:87
+msgid "The text that appears when you start the bot."
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:123
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:160
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:197
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:234
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:271
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:308
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:345
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:382
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:419
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:456
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:493
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:530
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:567
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:604
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:641
+msgid "path"
+msgstr ""
+
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:124
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:161
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:198
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:235
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:272
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:309
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:346
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:383
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:420
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:457
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:494
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:531
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:568
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:605
+#: /wa-apps/telegram/plugins/assistant/lib/config/settings.php:642
+msgid "This field is used only if file transfer is required. The path to the file is specified from the server root. Do not confuse the file path with a link to the file."
+msgstr ""
